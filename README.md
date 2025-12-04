@@ -110,6 +110,6 @@ El propósito de este repositorio es demostrar cómo los **métodos multivariado
 Repositorio desarrollado como parte de la materia  
 **Aplicación de Métodos Multivariados en Ciencia de Datos (MA2003B)**  
 Tecnológico de Monterrey
-```
+
 
 ---
