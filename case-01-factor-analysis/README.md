@@ -9,7 +9,7 @@ El contenido del proyecto se encuentra documentado principalmente en formato **P
 
 ## Estructura del repositorio
 
-```text
+```md
 
 ├── LendSmart_Credit_Risk_Analysis__Full_Business_Case.pdf
 │   └── Caso de negocio completo, contexto, hallazgos clave y recomendación final
@@ -34,7 +34,7 @@ El contenido del proyecto se encuentra documentado principalmente en formato **P
    - La recomendación final para LendSmart.
 
 2. **Consulta el reporte técnico**  
-   En `LendSmart_Credit_Risk_Analysis_Technical_Report.pdf` encontrarás:
+   En `LendSmart_Credit_Risk_Analysis_Technical_Report.pdf/ipynb` encontrarás:
    - Inspección y validación de datos.
    - Análisis exploratorio (EDA).
    - Preprocesamiento.
@@ -102,6 +102,5 @@ Dado su desempeño perfecto y su facilidad de explicación, se recomienda implem
 ## Contexto académico
 
 Proyecto académico desarrollado como parte de un curso de análisis estadístico y modelado predictivo aplicado a riesgo financiero.
-```
 
 ---
