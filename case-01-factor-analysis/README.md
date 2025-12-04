@@ -1,7 +1,3 @@
-
----
-
-```md
 # LendSmart – Credit Risk Analysis
 
 Este repositorio contiene el desarrollo completo de un caso de análisis de riesgo crediticio para **LendSmart**, una fintech dedicada a otorgar créditos personales y a pequeños negocios.  
