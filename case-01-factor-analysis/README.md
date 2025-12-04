@@ -128,6 +128,5 @@ Este enfoque permite transformar métricas dispersas en información estructurad
 ## Contexto académico
 
 Proyecto académico desarrollado como parte de un curso de análisis multivariado y aplicación de métodos estadísticos en ciencia de datos.
-```
 
 ---
