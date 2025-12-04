@@ -35,7 +35,7 @@ Cada caso aborda un problema real de negocio y aplica una metodología estadíst
 | Variable objetivo           | No                                  | Sí                                     | No                                     |
 | Output principal            | Factores latentes                   | Clases predichas                       | Grupos o segmentos                     |
 | Decisión de negocio         | Priorizar dimensiones clave         | Aceptar / rechazar clientes            | Diseñar estrategias por segmento       |
-| Nivel de interpretabilidad  | Medio–Alto                          | Alto                                   | Medio                                  |
+
 
 ---
 
@@ -60,6 +60,6 @@ Cada caso aborda un problema real de negocio y aplica una metodología estadíst
 Repositorio desarrollado como parte de la materia  
 **Aplicación de Métodos Multivariados en Ciencia de Datos (MA2003B)**  
 Tecnológico de Monterrey
-```
+
 
 ---
