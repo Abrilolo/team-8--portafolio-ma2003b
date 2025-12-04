@@ -9,37 +9,33 @@ El contenido del proyecto se encuentra documentado principalmente en formato **P
 
 ## Estructura del repositorio
 
-```md
-
+case-01-factor-analysis/
+├── LendSmart_Credit_Risk_Analysis.pdf
+│   └── Reporte técnico completo con EDA, preprocesamiento y modelos LDA vs QDA
+│
 ├── LendSmart_Credit_Risk_Analysis__Full_Business_Case.pdf
-│   └── Caso de negocio completo, contexto, hallazgos clave y recomendación final
+│   └── Caso de negocio: contexto, insights clave y recomendación final
 │
-├── LendSmart_Credit_Risk_Analysis.ipynb/pdf
-│   └── Desarrollo técnico detallado: EDA, preprocesamiento, modelos LDA y QDA
-│
-└── README.md
-└── Descripción general y guía del proyecto
-
-```
+└── LendSmart_Credit_Risk_Analysis.ipynb
+    └── Notebook con el desarrollo en Python del análisis exploratorio,
+        preprocesamiento, entrenamiento y evaluación de los modelos
 
 ---
 
 ## ¿Cómo consultar el proyecto?
 
-1. **Comienza por el Business Case**  
-   Revisa `LendSmart_Credit_Risk_Analysis__Full_Business_Case.pdf` para entender:
-   - El problema de negocio.
-   - El contexto del riesgo crediticio (~28% de defaults).
-   - Los insights principales.
-   - La recomendación final para LendSmart.
+1. Iniciar con `LendSmart_Credit_Risk_Analysis__Full_Business_Case.pdf`
+   para entender el problema de negocio, el contexto del riesgo crediticio
+   y la recomendación final para LendSmart.
 
-2. **Consulta el reporte técnico**  
-   En `LendSmart_Credit_Risk_Analysis_Technical_Report.pdf/ipynb` encontrarás:
-   - Inspección y validación de datos.
-   - Análisis exploratorio (EDA).
-   - Preprocesamiento.
-   - Modelado con **LDA** y **QDA**.
-   - Evaluación con matrices de confusión y curvas ROC.
+2. Revisar `LendSmart_Credit_Risk_Analysis.pdf`
+   para profundizar en el análisis técnico, los supuestos del modelado
+   y la comparación entre LDA y QDA.
+
+3. Consultar `LendSmart_Credit_Risk_Analysis.ipynb`
+   para ver el desarrollo completo en Python:
+   carga de datos, EDA, preprocesamiento, entrenamiento de modelos
+   y evaluación con métricas y visualizaciones.
 
 ---
 
