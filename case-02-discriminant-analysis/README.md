@@ -11,7 +11,7 @@ El contenido del proyecto se encuentra documentado principalmente en formato **P
 
 ```text
 
-case-01-factor-analysis/
+case-02-discriminant-analysis/
 ├── LendSmart_Credit_Risk_Analysis.pdf
 │   └── Reporte técnico completo con EDA, preprocesamiento y modelos LDA vs QDA
 │

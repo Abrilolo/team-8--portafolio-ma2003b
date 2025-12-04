@@ -11,17 +11,22 @@ El análisis se realizó sobre una base de **3,000 clientes**, utilizando **mét
 
 ```text
 
-case-01-customer-segmentation/
-├── MegaMart_Customer_Segmentation_Analysis[8].pdf
-│   └── Reporte completo del análisis: contexto de negocio,
-│      metodología, segmentación de clientes y recomendaciones.
+case-03-cluster-analysis/
+├── MegaMart_Customer_Segmentation_Analysis.pdf
+│   └── Reporte completo del análisis de segmentación de clientes,
+│      contexto de negocio, metodología, resultados y recomendaciones.
 │
-├── MegaMart_Customer_Segmentation_Analysis_Summary[8].pdf
-│   └── Resumen ejecutivo enfocado en hallazgos clave
+├── MegaMart_Customer_Segmentation_Analysis.ipynb
+│   └── Notebook con el desarrollo técnico:
+│      EDA, estandarización, clustering jerárquico,
+│      selección de k, K-Means, validación y visualizaciones.
+│
+├── MegaMart_Customer_Segmentation_Summary.pdf
+│   └── Resumen ejecutivo con hallazgos clave
 │      e impacto esperado para MegaMart.
 │
 └── README.md
-└── Descripción general y guía del proyecto
+    └── Descripción general y guía del proyecto
 
 ```
 
