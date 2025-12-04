@@ -9,6 +9,8 @@ El contenido del proyecto se encuentra documentado principalmente en formato **P
 
 ## Estructura del repositorio
 
+```text
+
 case-01-factor-analysis/
 ├── LendSmart_Credit_Risk_Analysis.pdf
 │   └── Reporte técnico completo con EDA, preprocesamiento y modelos LDA vs QDA
@@ -20,6 +22,7 @@ case-01-factor-analysis/
     └── Notebook con el desarrollo en Python del análisis exploratorio,
         preprocesamiento, entrenamiento y evaluación de los modelos
 
+```
 ---
 
 ## ¿Cómo consultar el proyecto?
