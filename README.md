@@ -1,115 +1,65 @@
 # Applied Multivariate Analysis – Business Case Studies
 
-Este repositorio reúne una colección de **casos de estudio aplicados** desarrollados como parte del curso  
-**Aplicación de Métodos Multivariados en Ciencia de Datos (MA2003B)**.
-
-Cada caso aborda un **problema real de negocio**, resolviéndose mediante técnicas estadísticas y de aprendizaje automático, combinando:
-- análisis exploratorio de datos,
-- modelado estadístico riguroso,
-- e interpretación orientada a la toma de decisiones.
-
-El repositorio está organizado en **tres casos independientes**, cada uno con su propio contexto, metodología y resultados.
+Este repositorio reúne una serie de **casos de estudio aplicados** desarrollados en la materia  
+**Aplicación de Métodos Multivariados en Ciencia de Datos (MA2003B)**.  
+Cada caso aborda un problema real de negocio y aplica una metodología estadística distinta para su análisis e interpretación.
 
 ---
 
-## Estructura general del repositorio
+## 1. Información del Equipo
 
-```text
-
-├── case-01-factor-analysis/
-│   └── Análisis factorial exploratorio (satisfacción del cliente B2B)
-│
-├── case-02-discriminant-analysis/
-│   └── Análisis discriminante para riesgo crediticio (LDA / QDA)
-│
-├── case-03-cluster-analysis/
-│   └── Segmentación de clientes mediante clustering
-│
-├── .gitignore
-├── LICENSE
-└── README.md
-
-```
-
-Cada carpeta contiene su **README específico**, junto con los reportes técnicos, resúmenes ejecutivos y notebooks correspondientes.
+| Nombre                         | Matrícula |
+|-------------------------------|-----------|
+| Adrián Tavera Aquino          | A01659113 |
+| Daniela Robles Estrada        | A01659074 |
+| Elian Alejandro López de Alba | A01659582 |
 
 ---
 
-## Casos incluidos
+## 2. Tabla Resumen de Casos
 
-### 🔹 Case 01 – Factor Analysis  
-**Customer Satisfaction Analysis (B2B)**
-
-- Reducción de múltiples indicadores de experiencia del cliente a factores latentes.
-- Uso de Análisis Factorial Exploratorio (AFE).
-- Comparación de métodos (PCA vs ML, Varimax vs Promax).
-- Conexión de factores con métricas de negocio como satisfacción y NPS.
-
-📁 Carpeta: `case-01-factor-analysis/`
+| Caso | Metodología                 | Problema de Negocio                                   | Carpeta                        |
+|-----:|----------------------------|------------------------------------------------------|--------------------------------|
+| 01   | Análisis Factorial          | Identificar dimensiones clave de satisfacción B2B   | `case-01-factor-analysis/`     |
+| 02   | Análisis Discriminante      | Clasificar riesgo crediticio (default / no default) | `case-02-discriminant-analysis/` |
+| 03   | Análisis de Clusters        | Segmentar clientes para marketing diferenciado      | `case-03-cluster-analysis/`    |
 
 ---
 
-### 🔹 Case 02 – Discriminant Analysis  
-**Credit Risk Analysis – LendSmart**
+## 3. Comparación Metodológica
 
-- Clasificación de clientes con probabilidad de incumplimiento.
-- Implementación y comparación de LDA y QDA.
-- Evaluación mediante matrices de confusión y curvas ROC.
-- Recomendación de modelo con enfoque en interpretabilidad y estabilidad.
-
-📁 Carpeta: `case-02-discriminant-analysis/`
-
----
-
-### 🔹 Case 03 – Cluster Analysis  
-**Customer Segmentation – MegaMart**
-
-- Segmentación de clientes basada en comportamiento de compra.
-- Análisis exploratorio, estandarización y detección de patrones.
-- Clustering jerárquico y K-Means (k óptimo).
-- Validación con silueta y visualización con PCA.
-- Recomendaciones estratégicas por segmento.
-
-📁 Carpeta: `case-03-cluster-analysis/`
+| Aspecto                     | Factor Analysis                     | Discriminant Analysis                  | Cluster Analysis                       |
+|-----------------------------|-------------------------------------|----------------------------------------|----------------------------------------|
+| Tipo de aprendizaje         | No supervisado                      | Supervisado                            | No supervisado                         |
+| Objetivo principal          | Reducir dimensionalidad             | Clasificar observaciones               | Segmentar observaciones                |
+| Variable objetivo           | No                                  | Sí                                     | No                                     |
+| Output principal            | Factores latentes                   | Clases predichas                       | Grupos o segmentos                     |
+| Decisión de negocio         | Priorizar dimensiones clave         | Aceptar / rechazar clientes            | Diseñar estrategias por segmento       |
+| Nivel de interpretabilidad  | Medio–Alto                          | Alto                                   | Medio                                  |
 
 ---
 
-## Herramientas y tecnologías empleadas
+## 4. Lecciones Aprendidas
 
-- Python  
-- Pandas  
-- NumPy  
-- Scikit-learn  
-- Matplotlib / Seaborn  
-- Jupyter Notebook  
-- LaTeX (Overleaf)  
-- Git & GitHub  
+- **Importancia del preprocesamiento:**  
+  La estandarización y limpieza de datos fue crítica en los tres casos para evitar sesgos y distorsiones en los resultados.
 
----
+- **No existe una sola “mejor” técnica:**  
+  Cada método responde a un tipo distinto de pregunta. El análisis factorial ayuda a entender *por qué* ocurren los fenómenos, el discriminante permite *predecir*, y el clustering sirve para *descubrir patrones ocultos*.
 
-## Enfoque del repositorio
+- **Interpretación > Métrica:**  
+  Aunque modelos como LDA o K-Means puedan mostrar métricas altas, su valor real está en que los resultados sean comprensibles y útiles para la toma de decisiones de negocio.
 
-El propósito de este repositorio es demostrar cómo los **métodos multivariados** pueden utilizarse para:
-- comprender problemas complejos de negocio,
-- reducir dimensionalidad,
-- clasificar y segmentar observaciones,
-- y traducir resultados estadísticos en **insights accionables**.
+- **Traducción a negocio es clave:**  
+  El mayor reto no fue técnico, sino convertir resultados estadísticos (factores, coeficientes, clusters) en recomendaciones claras y accionables.
 
 ---
 
-## Autores
-
-- Adrián Tavera Aquino – A01659113  
-- Daniela Robles Estrada – A01659074  
-- Elian Alejandro López de Alba – A01659582  
-
----
-
-## Contexto académico
+## Contexto Académico
 
 Repositorio desarrollado como parte de la materia  
 **Aplicación de Métodos Multivariados en Ciencia de Datos (MA2003B)**  
 Tecnológico de Monterrey
-
+```
 
 ---
